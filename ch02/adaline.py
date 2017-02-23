@@ -81,6 +81,7 @@ plt.xlabel('sepal length [standardized]')
 plt.ylabel('petal length [standardized]')
 plt.legend(loc='upper left')
 plt.show()
+
 plt.plot(range(1, len(ada.cost_) + 1), ada.cost_, marker='o')
 plt.xlabel('Epochs')
 plt.ylabel('Sum-squared-error')
